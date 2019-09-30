@@ -9,6 +9,9 @@ body {
       color: black  ;
     }
 
+    #ex2 .nav  {z-index:1000;}
+
+    #cv {z-index:0;}
 #Image
 img{ display:block; 
     width:19%;
@@ -90,17 +93,17 @@ to {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#222222;
+    background-color: #333;
     position: fixed;
     top: 0;
     width: 100%;
   }
   
- #ex2  li {
+  #ex2 li {
     float: left;
   }
   
-  #ex2 li a {
+  #ex2  li a {
     display: block;
     color: white;
     text-align: center;
@@ -109,7 +112,11 @@ to {
   }
   
   #ex2 li a:hover:not(.active) {
-    background-color: #222222;
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
   }
   
   
