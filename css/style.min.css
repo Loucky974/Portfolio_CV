@@ -1,8 +1,42 @@
 body {
     color:#19f6e8;
     background-color:black;
-    }
+    margin-bottom: 50px;}
 
+   
+
+    .svg-wrapper {
+     
+      top: 10%;
+      transform: translateY(-50%);
+        margin: 0 auto;
+        
+      width: 320px;  
+    }
+    .shape {
+      stroke-dasharray: 140 540;
+      stroke-dashoffset: -474;
+      stroke-width: 8px;
+      fill: transparent;
+      stroke: #19f6e8;
+      border-bottom: 5px solid black;
+      transition: stroke-width 2s, stroke-dashoffset 2s, stroke-dasharray 2s;
+    }
+    .text {
+      font-family: 'Roboto Condensed';
+      font-size: 22px;
+      line-height: 32px;
+      letter-spacing: 8px;
+      color: #fff;
+      top: -48px;
+      position: relative;
+      margin:auto 10px ;
+    }
+    .svg-wrapper:hover .shape {
+      stroke-width: 2px;
+      stroke-dashoffset: 0;
+      stroke-dasharray: 760;
+    }
 
     #cv{
       background-color:white;
@@ -22,27 +56,14 @@ img{ display:block;
     }
 
 #description
-{text-align: center;font-style: oblique;
+{font-style: oblique;
+  margin: 100px 300px ;
 font-size: 1.3em;}
 
+#bienvenueid
+{ margin: 100px 180px  !important;}
+
 section {padding-bottom:50px; }
-
-.cssform p{
-    width: 100%;
-    margin: 0;
-    padding: 1em 0 2em 0;
-    padding-right: 100%; /*width of left column containing the label elements*/
-    height: 1%;
-
-}
-
-
-
-.cssform label{
-font-weight: bold;
-float: left;
-width: 10em; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
-}
 
 #envoyer
 {padding-left:15em;}
@@ -64,17 +85,9 @@ width: 10em; /*width of labels. Should be smaller than left column (155px) to cr
 
 footer {bottom: 0; left: 0; right: 0;margin-top: 50px;}
 
-#titreprincipal
-{absolute-size : 2em;
- text-align: center;
-}
 
-#BonjourId {
-    animation-duration: 5s;
-    animation-name: boubouge;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
+
+
 
 @keyframes boubouge {
     from {
@@ -119,12 +132,6 @@ to {
     background-color: #4CAF50;
   }
   
-  
-
-  
- 
-
-
 
 
 #Coordonnés
