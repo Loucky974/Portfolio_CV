@@ -57,11 +57,11 @@ img{ display:block;
 
 #description
 {font-style: oblique;
-  margin: 100px 300px ;
+  margin: 100px auto ;
 font-size: 1.3em;}
 
-#bienvenueid
-{ margin: 100px 180px  !important;}
+#bienvenueid, #presentation
+{ text-align: center;}
 
 section {padding-bottom:50px; }
 
